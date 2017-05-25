@@ -8,6 +8,6 @@ Redux Guide
 mapStateToProps(state) // Returns reducers objects
 mapDispatchToProps(state) // Return actions to be used on some events
 
-// Param 1. Enables reducers output tu be used
-// Param 2. Enables actions to be used in code
+Param 1. Enables reducers output tu be used
+Param 2. Enables actions to be used in code
 connect(mapStateToProps, {action1, action2, action3} || mapDispatchToProps)(Class Name);
